@@ -1,0 +1,10 @@
+insert into LIBRARY_ENTITY values(1, 'Rich Dad Poor Dad, Think and Grow Rich, Intelligent Invester ', 'Personal finance');
+insert into LIBRARY_ENTITY values(2, 'Fault in Our Star, It Starts with Us', 'Romantic Books');
+insert into LIBRARY_ENTITY values(3, 'Civil-War, Avengers, Spider-Man', 'Marvel Comics');
+insert into LIBRARY_ENTITY values(4, '', 'DC Comics');
+insert into LIBRARY_ENTITY values(5, 'Star-Wars', 'Fiction');
+insert into LIBRARY_ENTITY values(6, 'ABC, XYZ', 'A Library');
+insert into LIBRARY_ENTITY values(7, 'ABC, XYZ', 'B Library');
+insert into LIBRARY_ENTITY values(8, 'ABC, XYZ', 'C Library');
+insert into LIBRARY_ENTITY values(9, 'ABC, XYZ', 'D Library');
+insert into LIBRARY_ENTITY values(10, '', 'No Books');
