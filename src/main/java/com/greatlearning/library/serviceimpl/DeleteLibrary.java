@@ -45,7 +45,7 @@ public class DeleteLibrary implements DeleteService{
 	@Override
 	public String deleteByID(Integer id) {
 		deleteLibrary.deleteById(id);
-		return "Delete by ID";
+		return "Delete by ID "+ id;
 	}
 	
 	//deleteAllTheseInBatch

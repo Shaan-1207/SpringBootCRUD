@@ -61,6 +61,7 @@ public class SpringBootLibraryDesignApplication implements CommandLineRunner {
 		log.info("Check if library exist by book name : {}", libraryExist.checkLibraryWithbookNameByExample(""));
 		
 		
+		
 //		log.info("Check if library exist by book name : {}", 
 //				deleteLibrary.deleteLibrary(LibraryEntity.builder()
 //						.commaSepratedBookName("ABC, XYZ").id(9)
@@ -86,7 +87,7 @@ public class SpringBootLibraryDesignApplication implements CommandLineRunner {
 		
 		
 //		deleteAllTheseInBatch
-		log.info("Delete all these records: {}", deleteLibrary.deleteAllTheseInBatch(libraries));
+//		log.info("Delete all these records: {}", deleteLibrary.deleteAllTheseInBatch(libraries));
 		
 		
 		

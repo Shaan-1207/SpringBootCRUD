@@ -7,10 +7,11 @@ import org.springframework.stereotype.Service;
 
 import com.greatlearning.library.entity.LibraryEntity;
 import com.greatlearning.library.repository.LiberaryRepo;
+import com.greatlearning.library.service.CreateServiceInterface;
 import com.greatlearning.library.service.LibraryCreateService;
 
 @Service
-public class CreateService implements LibraryCreateService {
+public class CreateService implements LibraryCreateService, CreateServiceInterface {
 
     @Autowired
     LiberaryRepo libraryRepo;
